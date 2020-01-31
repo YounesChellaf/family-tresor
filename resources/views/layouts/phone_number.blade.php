@@ -13,22 +13,22 @@
                     @csrf
                     <div class="form-group col-lg-3" >
                         <label for="">الاســـم الرباعــي</label>
-                        <input type="text" class="form-control" name="name">
+                        <input type="text" class="form-control" name="name" style="border-radius: 0%">
                     </div>
                     <div class="form-group col-lg-3" >
                         <label for="">الاســـم الرباعــي</label>
                         <select name="type" id="" class="form-control">
-                            <option value="23">اضــــافة رقـم</option>
-                            <option value="23">تغييــــر الرقـم</option>
+                            <option value="add">اضــــافة رقـم</option>
+                            <option value="update">تغييــــر الرقـم</option>
                         </select>
                         {{--<input type="text" class="form-control" >--}}
                     </div>
                     <div class="form-group col-lg-3" dir="rtl">
                         <label for="">رقـــم الجـــوال </label>
-                        <input type="text" class="form-control" name="number" >
+                        <input type="text" class="form-control" name="number" style="border-radius: 0%">
                     </div>
                     <div class="form-group col-lg-2" style="margin-top: 3%" >
-                        <button type="submit" class="btn btn-outline-primary">ارســــــــــــــــــــال</button>
+                        <button type="submit" class="btn btn-outline-primary" style="border-radius: 0%">ارســــــــــــــــــــال</button>
                     </div>
                 </form>
             </div>

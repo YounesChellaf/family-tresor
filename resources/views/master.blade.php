@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Landerz</title>
+    <title> الموقع الرسمي لأسرة الهجــاري</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -30,6 +30,44 @@
             font-family: DroidArabicKufiRegular, 'sans-serif' !important;
         }
     </style>
+    <style>
+        .dropbtn {
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: #ffffff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(237, 237, 237, 0.2);
+            border: 1px solid #eceeec;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            color: #00d2b5;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+    </style>
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -47,9 +85,9 @@
 
     <div class="container d-none d-lg-block">
         <div class="row">
-            <div class="col-12 text-center mb-4 mt-5">
+            <div class="col-12 text-center mt-4">
                 {{--<h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Landerz<span class="text-primary">.</span> </a></h1>--}}
-                <img src="{{asset('assets/images/logo.png')}}" alt="">
+                <img src="{{asset('assets/images/hejari-logo.png')}}" alt="" width="200" height="150">
             </div>
         </div>
     </div>
@@ -59,7 +97,7 @@
             <div class="row align-items-center">
 
                 <div class="col-6 col-md-6 col-xl-2  d-block d-lg-none">
-                    <img src="{{asset('assets/images/logo.png')}}" alt="">
+                    <img src="{{asset('assets/images/hejari-logo.png')}}" alt="" width="110" height="110" style="padding: 12%">
                 </div>
 
                 <div class="col-12 col-md-10 main-menu">
@@ -69,23 +107,31 @@
                             <li><a href="{{route('landing')}}" class="nav-link">الرئيسية</a></li>
                             <li><a href="{{route('family_ratios')}}" class="nav-link">نـــســب الأســــــرة</a></li>
                             <li><a href="{{route('about_tresor')}}" class="nav-link">عن الصندوق</a></li>
-                            <li><a href="{{route('photos')}}" class="nav-link">الصـور</a></li>
-                            <li><a href="" class="nav-link">الخدمـات</a></li>
+                            {{--<li><a href="{{route('photos')}}" class="nav-link">الصـور</a></li>--}}
+                            <li>
+                                <div class="dropdown">
+                                    <button class="dropbtn">الخدمــــات</button>
+                                    <div class="dropdown-content">
+                                        <a href="{{route('financial_help')}}">طـلب معونة مالية</a>
+                                        <a href="{{route('weeding_help')}}">طـلب إعانة زواج</a>
+                                        <a href="{{route('reconcile')}}">إصـلاح ذات البين</a>
+                                        <a href="{{route('suggestion')}}">الاقـتراحات</a>
+                                    </div>
+                                </div>
+                            </li>
                             <li><a href="{{route('phone_number')}}" class="nav-link">جــوال التواصل</a></li>
                         </ul>
                     </nav>
                 </div>
-
-
                 <div class="col-6 col-md-6 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
-
             </div>
         </div>
 
     </header>
 
 
-    @yield('content')
+        @yield('content')
+
 <div class="footer py-5 border-top text-center">
     <div class="container">
         <div class="row mb-5">
@@ -100,7 +146,7 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="mb-0">
-                    الموقع الرسمي بإشراف صندوق أسرة السلمان التعاوني
+                    الموقع الرسمي بإشراف صندوق أسرة الهجــاري
                 </p>
             </div>
         </div>

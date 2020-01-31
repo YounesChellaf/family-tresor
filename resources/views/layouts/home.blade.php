@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-    <div class="site-blocks-cover" style=" text-align: right">
+    <div class="site-blocks-cover" style=" text-align: right ; margin-top: -4%">
         <div class="container">
             <div class="row align-items-center justify-content-center">
 
@@ -11,12 +11,12 @@
 
                     <div class="row mb-4" >
                         <div class="col-lg-6 mr-auto" dir="rtl">
-                            <h1>أسرة السلمان من</h1>
+                            <h1>أســرة الهجــــاري</h1>
                             <p class="mb-5">
                                 أيها الأحبة الكرام إيماناً منا بأهمية زيادة روابط أسرتنا الكريمة أسسنا هذا الموقع ليكون ميداناً لأفرادها في كل مكان يتواصلون من خلاله فيقرب البعيد ويزيد قرب القريب ويشاركونهم أفراحهم ويشاطرونهم أتراحهم.
                             </p>
                             <div>
-                                <a href="#" class="btn btn-primary mr-2 mb-2">المزيد من التفاصيل عن الأسرة</a>
+                                <a href="{{route('family_ratios')}}" class="btn btn-outline-dark mr-2 mb-2" style="border-radius: 0%">المزيد من التفاصيل عن الأسرة</a>
                             </div>
                         </div>
 
@@ -192,17 +192,17 @@
             <div class="row mb-5">
                 <div class="col-lg-6">
                     {{--<img src="{{asset('assets/images/about_1.jpg')}}" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">--}}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.644437594277!2d36.549469515045665!3d28.3695975026833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15a9add91659385f%3A0xf1bdbe453d4db091!2z2KrYqNmI2YM!5e0!3m2!1sen!2sdz!4v1580138691676!5m2!1sen!2sdz" width="550" height="400" frameborder="0" style="border:2px solid #c2c2c2;" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466380.9694771072!2d37.84700112181078!3d24.04512007679874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15b9060be2a84147%3A0xc294f09f5a959010!2sYanbu%20Saudi%20Arabia!5e0!3m2!1sen!2sdz!4v1580319199017!5m2!1sen!2sdz" width="550" height="400" frameborder="0" style="border:2px solid #c2c2c2;" allowfullscreen=""></iframe>
                 </div>
                 <div class="col-lg-6 ml-auto pl-lg-5">
-                    <h2 class="text-black mb-4">عن تبـــــوك</h2>
+                    <h2 class="text-black mb-4">عن يـنبـع</h2>
                     <p class="mb-4">
-                        مدينة تبوك، مقر إمارة منطقة تبوك وكبرى مدن شمال السعودية، وحولها بعض من أهم الآثار في الجزيرة العربية. تعد منطقة تبوك البوابة الشمالية للجزيرة العربية، وطريقاً حيوياً للتجارة والحجاج والمعتمرين من خارج شبه الجزيرة العربية. وهي من المناطق الزراعية المهمة في المملكة.
+                        نبع هي محافظة من محافظات منطقة المدينة المنورة في المملكة العربية السعودية وتقع على ساحل البحر الأحمر في إقليم تهامة تبعد حوالي 200 كم غرب المدينة المنورة و 125 كم جنوب مدينة أملج و 300 كم شمال مدينة جدة. ويقدّر عدد سكانها بـحوالي 500 ألف نسمة. وتعتبر ثاني أكبر مدينة على البحر الأحمر بعد مدينة جدة وتقسم المدينة إلى 3 مدن: ينبع البحر ، وينبع النخل ، وينبع الصناعية. وتلقب بلؤلؤة البحر الأحمر.
                     </p>
                     <p class="mb-4">
-                        تقـــع في شمال غربي السعودية، على دائرة عرض 36 درجة و65 دقيقة، وخط طول 28 درجة و49 دقيقة، تغطي منطقة تبوك ما مساحته 116،400 كيلو متر مربع من الأراضي الممتدة على ساحل البحر الأحمر من الحدود الأردنية في الشمال إلى جنوب مدينة أملج.
+                        ينبع هي إحدى مدن المملكة العربية السعودية، وتقع في غرب الجزيرة العربية على الضفة الشرقية للبحر الأحمر التي يبلغ طولها ضمن حدود المملكة العربية السعودية 1800 كم
                     </p>
-                    <p><a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%A8%D9%88%D9%83" target="_blank" class="btn btn-outline-primary">استكشــف اكثـر</a></p>
+                    <p><a href="https://ar.wikipedia.org/wiki/%D9%8A%D9%86%D8%A8%D8%B9" target="_blank" class="btn btn-outline-primary" style="border-radius: 0%">استكشــف اكثـر</a></p>
                 </div>
             </div>
 
@@ -222,33 +222,30 @@
             <div>
                 <div class="testimonial">
                     <figure class="row  ">
-                       <img src="{{asset('assets/images/person_3.jpg')}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
-                      <img src="{{asset('assets/images/person_3.jpg')}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
+                       <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">
+                      <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">
                     </figure>
                 </div>
             </div>
             <div>
                 <div class="testimonial">
                     <figure class="row  ">
-                        <img src="{{asset('assets/images/person_3.jpg')}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
-                        <img src="{{asset('assets/images/person_3.jpg')}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
+                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">
+                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">
                     </figure>
                 </div>
             </div>
             <div>
                 <div class="testimonial">
                     <figure class="row  ">
-                        <img src="{{asset('assets/images/person_3.jpg')}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
-                        <img src="{{asset('assets/images/person_3.jpg')}}" alt="Image" class="w-100 img-fluid mb-3 shadow">
+                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">
+                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">
                     </figure>
                 </div>
             </div>
-
-            </div>
-
         </div>
-    </div>
 
+    </div>
     {{--<div class="site-section bg-light" id="contact-section">--}}
         {{--<div class="container">--}}
             {{--<div class="row mb-5">--}}
@@ -313,7 +310,7 @@
 
         {{--</div>--}}
     {{--</div>--}}
-    <div class="site-section bg-light" id="blog-section" dir="rtl">
+    <div class="site-section bg-light" id="blog-section" dir="rtl" style="text-align: right">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
