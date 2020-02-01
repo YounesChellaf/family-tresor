@@ -36,4 +36,19 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+
+    public function status(){
+        switch ($this->confirmed) {
+            case true:
+                echo '<label class="label label-success">مؤكـــــد</label>';
+                break;
+            case false:
+                echo '<label class="label label-warning">غيـر مؤكـد </label>';
+                break;
+
+            default:
+                break;
+        }
+    }
 }

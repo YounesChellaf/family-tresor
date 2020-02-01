@@ -91,6 +91,7 @@
             <nav class="sidebar-nav">
                 <ul id="sidebarnav">
                     <li> <a class="waves-effect waves-dark" href="{{route('dashboard.landing')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">الرئيسيـــــة</span></a></li>
+
                     <li class="nav-small-cap">------- الخدمات الالكترونيــة -------</li>
                     <li> <a class="waves-effect waves-dark" href="{{route('financials.index')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">طلبات الاعانــــة الماليــــة</span></a></li>
                     <li> <a class="waves-effect waves-dark" href="{{route('weddings.index')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">طلبات اعانــــة زواج</span></a></li>
@@ -98,7 +99,8 @@
                     <li> <a class="waves-effect waves-dark" href="{{route('suggestions.index')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">الاقتراحات</span></a></li>
 
                     <li class="nav-small-cap">-------  تعديـــل المعلومات العامــة -------</li>
-                    <li> <a class="waves-effect waves-dark" href="{{route('generals.edit',\App\General::first()->id)}}" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu"> تعديـــل معلومات في الموقع</span></a></li>
+                    <li> <a class="waves-effect waves-dark" href="{{route('users.index')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">الاعـــــضاء</span></a></li>
+                    <li> <a class="waves-effect waves-dark" href="{{route('generals.edit',\App\General::first()->id)}}" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu">معلومات الموقع</span></a></li>
 
 
                     <li class="nav-small-cap">------- الحســـاب -------</li>

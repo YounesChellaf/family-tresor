@@ -35,6 +35,7 @@ Route::group(['middleware' => 'auth'], function (){
     Route::resource('/reconciles','ReconcileController');
     Route::resource('/suggestions','SuggestionController');
     Route::resource('/generals','GeneralController');
+    Route::resource('/users','UserController');
     Route::get('/admin', function () {
         return view('dashboard.layouts.landing');
     })->name('dashboard.landing');
