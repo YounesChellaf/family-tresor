@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8">
@@ -35,7 +35,7 @@
     </style>
 </head>
 
-<body class="skin-blue fixed-layout">
+<body class="skin-green fixed-layout">
 <!-- ============================================================== -->
 <!-- Preloader - style you can find in spinners.css -->
 <!-- ============================================================== -->
@@ -97,9 +97,12 @@
                     <li> <a class="waves-effect waves-dark" href="{{route('reconciles.index')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">طلبات اصلاح ذات البيــن</span></a></li>
                     <li> <a class="waves-effect waves-dark" href="{{route('suggestions.index')}}" aria-expanded="false"><i class="far fa-circle text-danger"></i><span class="hide-menu">الاقتراحات</span></a></li>
 
+                    <li class="nav-small-cap">-------  تعديـــل المعلومات العامــة -------</li>
+                    <li> <a class="waves-effect waves-dark" href="{{route('generals.edit',\App\General::first()->id)}}" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu"> تعديـــل معلومات في الموقع</span></a></li>
 
-                    <li class="nav-small-cap">--- SUPPORT</li>
-                    <li> <a class="waves-effect waves-dark" href="pages-faq.html" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu">تسجيــــل الخـــروج</span></a></li>
+
+                    <li class="nav-small-cap">------- الحســـاب -------</li>
+                    <li> <a class="waves-effect waves-dark" href="{{route('logout')}}" aria-expanded="false"><i class="far fa-circle text-info"></i><span class="hide-menu">تسجيــــل الخـــروج</span></a></li>
                 </ul>
             </nav>
             <!-- End Sidebar navigation -->
@@ -185,7 +188,7 @@
 <!-- end - This is for export functionality only -->
 <script>
     $(function() {
-        $('.buttons-copy, .buttons-csv, .buttons-print, .buttons-pdf, .buttons-excel').addClass('btn btn-primary mr-1');
+        $('.buttons-copy, .buttons-csv, .buttons-print, .buttons-pdf, .buttons-excel').addClass('btn btn-outline-success mr-1');
     });
 
     $('#myTable').DataTable({

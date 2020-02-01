@@ -22,7 +22,7 @@
                                     <td>{{$financial->position}}</td>
                                     <td>{{$financial->phone_number}}</td>
                                     <td>{{$financial->type}}</td>
-                                    <td>{{$financial->details}}</td>
+                                    <td><button class="btn btn-rounded btn-outline-success" data-toggle="modal" data-target="#modal-details-{{$financial->id}}">تفاصيـــل</button></td>
                                 </tr>
                             @endforeach
                             </tbody>
@@ -32,4 +32,25 @@
             </div>
         </div>
     </div>
+    @foreach(\App\FinancialHelp::all() as $financial)
+        <div class="col-md-4">
+            <div id="modal-details-{{$financial->id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title">تفاصيــــل حول الكربـــة</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p class="mt-4">
+                                {{$financial->details}}
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    @endforeach
+
 @endsection

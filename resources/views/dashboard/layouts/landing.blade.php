@@ -55,7 +55,7 @@
                     <div class="d-flex no-block align-items-center m-t-20 m-b-20">
                         <div id="sparklinedash4"></div>
                         <div class="ml-auto">
-                            <h2 class="text-danger"><i class="ti-arrow-down"></i> <span class="counter">{{\App\Suggestion::all()->count()}}</span></h2>
+                            <h2 class="text-danger"><i class="ti-arrow-up"></i> <span class="counter">{{\App\Suggestion::all()->count()}}</span></h2>
                         </div>
                     </div>
                 </div>
@@ -77,19 +77,21 @@
                         <tr>
                             <th>الاسم الربــاعي</th>
                             <th>رقـــم الهاتف</th>
-                            <th>حـــالة العضــو</th>
+                            <th>نـــوع العضــو</th>
                             <th>الرقــم</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <td><a href="javascript:void(0)" class="link">Order #536584</a></td>
-                            <td><span class="text-muted"><i class="fa fa-clock-o"></i> Oct 19, 2014</span></td>
-                            <td>$45.58</td>
+                        @foreach(\App\User::all() as $user)
+                        <tr style="text-align: right" dir="rtl">
+                            <td><a href="javascript:void(0)" class="link">{{$user->name}}</a></td>
+                            <td><span class="text-muted"><i class="fa fa-clock-o"></i>{{$user->phone_number}}</span></td>
+                            <td>{{$user->role}}</td>
                             <td class="text-center">
                                 <div class="label label-table label-warning">Unpaid</div>
                             </td>
                         </tr>
+                        @endforeach
                         </tbody>
                     </table>
                 </div>

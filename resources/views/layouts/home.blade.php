@@ -202,7 +202,7 @@
                     <p class="mb-4">
                         ينبع هي إحدى مدن المملكة العربية السعودية، وتقع في غرب الجزيرة العربية على الضفة الشرقية للبحر الأحمر التي يبلغ طولها ضمن حدود المملكة العربية السعودية 1800 كم
                     </p>
-                    <p><a href="https://ar.wikipedia.org/wiki/%D9%8A%D9%86%D8%A8%D8%B9" target="_blank" class="btn btn-outline-primary" style="border-radius: 0%">استكشــف اكثـر</a></p>
+                    <p><a href="https://ar.wikipedia.org/wiki/%D9%8A%D9%86%D8%A8%D8%B9" target="_blank" class="btn btn-outline-dark" style="border-radius: 0%">استكشــف اكثـر</a></p>
                 </div>
             </div>
 
@@ -210,42 +210,42 @@
     </div>
 
 
-    <div class="site-section testimonial-wrap" id="testimonials-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 text-center">
-                    <h2 class="section-title mb-3">صـــــور مختارة</h2>
-                </div>
-            </div>
-        </div>
-        <div class="slide-one-item home-slider owl-carousel">
-            <div>
-                <div class="testimonial">
-                    <figure class="row  ">
-                       <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">
-                      <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">
-                    </figure>
-                </div>
-            </div>
-            <div>
-                <div class="testimonial">
-                    <figure class="row  ">
-                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">
-                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">
-                    </figure>
-                </div>
-            </div>
-            <div>
-                <div class="testimonial">
-                    <figure class="row  ">
-                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">
-                        <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">
-                    </figure>
-                </div>
-            </div>
-        </div>
+    {{--<div class="site-section testimonial-wrap" id="testimonials-section">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row mb-5">--}}
+                {{--<div class="col-12 text-center">--}}
+                    {{--<h2 class="section-title mb-3">صـــــور مختارة</h2>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--<div class="slide-one-item home-slider owl-carousel">--}}
+            {{--<div>--}}
+                {{--<div class="testimonial">--}}
+                    {{--<figure class="row  ">--}}
+                       {{--<img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">--}}
+                      {{--<img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">--}}
+                    {{--</figure>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div>--}}
+                {{--<div class="testimonial">--}}
+                    {{--<figure class="row  ">--}}
+                        {{--<img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">--}}
+                        {{--<img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">--}}
+                    {{--</figure>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div>--}}
+                {{--<div class="testimonial">--}}
+                    {{--<figure class="row  ">--}}
+                        {{--<img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid mb-3 shadow">--}}
+                        {{--<img src="{{asset('assets/images/family.jpg')}}" alt="Image" class=" img-fluid mb-3 shadow">--}}
+                    {{--</figure>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
 
-    </div>
+    {{--</div>--}}
     {{--<div class="site-section bg-light" id="contact-section">--}}
         {{--<div class="container">--}}
             {{--<div class="row mb-5">--}}
@@ -310,22 +310,32 @@
 
         {{--</div>--}}
     {{--</div>--}}
-    <div class="site-section bg-light" id="blog-section" dir="rtl" style="text-align: right">
+    <div class="site-section " id="blog-section" dir="rtl" style="text-align: right">
         <div class="container">
             <div class="row">
+                {{--<div class="col-md-6 col-lg-4 mb-4 mb-lg-4">--}}
+                    {{--<div class="h-entry">--}}
+                        {{--<h2>جوال تواصل</h2>--}}
+                        {{--<img src="{{asset('assets/images/phone.png')}}" class="img-fluid" alt="">--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                     <div class="h-entry">
-                        <h2>جوال تواصل</h2>
-                        <img src="{{asset('assets/images/phone.png')}}" class="img-fluid" alt="">
+                        <h2>معلـــومات التواصـــل</h2>
+                        <h2>البريـــد الالكترونــي</h2>
+                        <p>{{\App\General::first()->email}}</p>
+                        <h2>الهاتف المحمـــــول</h2>
+                        <p>{{\App\General::first()->phone_number}}</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
                     <div class="h-entry">
                         <h2>الأقربون أولى بالمعروف</h2>
                         <h2>حساب الصندوق على مصرف الراجحي</h2>
-                        <p>397608010000983</p>
+                        <p>{{\App\General::first()->first_bank}}</p>
                         <h2>حساب الصندوق على مصرف الراجحي</h2>
-                        <p>397608010000983</p>
+                        <p>{{\App\General::first()->second_bank}}</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
@@ -339,6 +349,7 @@
                         </p>
                     </div>
                 </div>
+
 
             </div>
         </div>

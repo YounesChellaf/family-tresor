@@ -26,31 +26,41 @@ Route::get('/جوال-تواصل', function () {
 Route::get('/صـــــور', function () {
     return view('layouts.photos');
 })->name('photos');
-Route::get('/طـلب-معونة-مالية', function () {
-    return view('layouts.financial_demand');
-})->name('financial_help');
-Route::get('/طـلب-اعانــة-زواج', function () {
-    return view('layouts.wedding_help');
-})->name('weeding_help');
-Route::get('/اصلاح-ذات-البين', function () {
-    return view('layouts.reconcile');
-})->name('reconcile');
-Route::get('/اقتراحـات', function () {
-    return view('layouts.suggestion');
-})->name('suggestion');
 
-Route::resource('/phone_numbers','PhoneNumberController');
-Route::resource('/weddings','WeddingHelpController');
-Route::resource('/financials','FinancialHelpController');
-Route::resource('/reconciles','ReconcileController');
-Route::resource('/suggestions','SuggestionController');
 
-Route::get('/admin', function () {
-    return view('dashboard.layouts.landing');
-})->name('dashboard.landing');
+Route::group(['middleware' => 'auth'], function (){
+    Route::resource('/phone_numbers','PhoneNumberController');
+    Route::resource('/weddings','WeddingHelpController');
+    Route::resource('/financials','FinancialHelpController');
+    Route::resource('/reconciles','ReconcileController');
+    Route::resource('/suggestions','SuggestionController');
+    Route::resource('/generals','GeneralController');
+    Route::get('/admin', function () {
+        return view('dashboard.layouts.landing');
+    })->name('dashboard.landing');
+    Route::get('/طـلب-معونة-مالية', function () {
+        return view('layouts.financial_demand');
+    })->name('financial_help');
+    Route::get('/طـلب-اعانــة-زواج', function () {
+        return view('layouts.wedding_help');
+    })->name('weeding_help');
+    Route::get('/اصلاح-ذات-البين', function () {
+        return view('layouts.reconcile');
+    })->name('reconcile');
+    Route::get('/اقتراحـات', function () {
+        return view('layouts.suggestion');
+    })->name('suggestion');
+
+});
+
 Auth::routes();
+Route::get('logout', 'Auth\LoginController@logout')->name('logout');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
