@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,8 +106,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="300" column="49" lean-forward="true" selection-start-line="300" selection-start-column="49" selection-end-line="300" selection-end-column="49" />
+            <state relative-caret-position="283">
+              <caret line="300" column="61" lean-forward="true" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -426,12 +421,12 @@
       <updated>1580054255528</updated>
       <workItem from="1580054256770" duration="29655000" />
       <workItem from="1580575547739" duration="6326000" />
-      <workItem from="1580599843057" duration="6032000" />
+      <workItem from="1580599843057" duration="6286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42013000" />
+    <option name="totallyTimeSpent" value="42267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -443,8 +438,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29295427" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29295427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -827,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="300" column="49" lean-forward="true" selection-start-line="300" selection-start-column="49" selection-end-line="300" selection-end-column="49" />
+        <state relative-caret-position="283">
+          <caret line="300" column="61" lean-forward="true" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
         </state>
       </provider>
     </entry>
