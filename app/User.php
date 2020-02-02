@@ -51,4 +51,15 @@ class User extends Authenticatable
                 break;
         }
     }
+
+    public function financials(){
+        return $this->hasMany(FinancialHelp::class);
+    }
+    public function reconciles(){
+        return $this->hasMany(Reconcile::class);
+    }
+    public function weddings(){
+        return $this->hasMany(WeddingHelp::class);
+    }
 }
+

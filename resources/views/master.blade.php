@@ -125,6 +125,8 @@
                             @else
                                 @if(auth()->user()->role == 'admin')
                                     <li><a href="{{route('dashboard.landing')}}" class="nav-link">لوحــــة التحــكم</a></li>
+                                @else
+                                    <li><a href="{{route('logout')}}" class="nav-link">الخـــروج</a></li>
                                 @endif
                             @endif
                         </ul>
@@ -144,9 +146,9 @@
         <div class="row mb-5">
             <div class="col-12">
                 <p class="mb-0">
-                    <a  target="_blank" href="{{\App\General::first()->facebook}}" class="p-3"><span class="icon-facebook"></span></a>
-                    <a  target="_blank" href="{{\App\General::first()->twitter}}" class="p-3"><span class="icon-twitter"></span></a>
-                    <a  target="_blank" href="{{\App\General::first()->instgram}}" class="p-3"><span class="icon-instagram"></span></a>
+                    <a   href="{{\App\General::first()->facebook}}" class="p-3"><span class="icon-facebook"></span></a>
+                    <a  href="{{\App\General::first()->twitter}}" class="p-3"><span class="icon-twitter"></span></a>
+                    <a  href="{{\App\General::first()->instgram}}" class="p-3"><span class="icon-instagram"></span></a>
                 </p>
             </div>
         </div>

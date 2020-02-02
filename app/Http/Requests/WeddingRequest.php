@@ -24,9 +24,8 @@ class WeddingRequest extends FormRequest
     public function rules()
     {
         return [
-            'phone_number' =>'required',
+
             'wedding_date' =>'required',
-            'name' =>'required',
             'bank_name' =>'required',
             'iban' =>'required',
         ];
@@ -34,9 +33,7 @@ class WeddingRequest extends FormRequest
     public function messages()
     {
         return [
-            'phone_number.required' => 'الجـــــوال اجبـاري',
             'wedding_date.required' => 'تاريخ العرس اجبـاري',
-            'name.required' => 'الاسم الرباعي اجبـاري',
             'iban.required' => 'رقــــم الحساب البنكي iban اجبـاري',
             'bank_name.required' => 'اسم البنك اجبـاري',
         ];

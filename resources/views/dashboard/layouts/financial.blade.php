@@ -18,9 +18,9 @@
                             <tbody>
                             @foreach(\App\FinancialHelp::all() as $financial)
                                 <tr>
-                                    <td>{{$financial->name}}</td>
+                                    <td>{{$financial->user->name}}</td>
                                     <td>{{$financial->position}}</td>
-                                    <td>{{$financial->phone_number}}</td>
+                                    <td>{{$financial->user->phone_number}}</td>
                                     <td>{{$financial->type}}</td>
                                     <td><button class="btn btn-rounded btn-outline-success" data-toggle="modal" data-target="#modal-details-{{$financial->id}}">تفاصيـــل</button></td>
                                 </tr>

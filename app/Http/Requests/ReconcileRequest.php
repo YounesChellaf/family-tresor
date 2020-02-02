@@ -25,7 +25,6 @@ class ReconcileRequest extends FormRequest
     {
         return [
             'parties' =>'required',
-            'name' =>'required',
             'details' =>'required',
         ];
     }
@@ -33,7 +32,6 @@ class ReconcileRequest extends FormRequest
     {
         return [
             'parties.required' => ' أطراف الخلاف اجبـارية',
-            'name.required' => 'الاسم الرباعي اجبـاري',
             'details.required' => 'التفاصيل اجبـارية',
         ];
     }

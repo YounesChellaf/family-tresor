@@ -9,6 +9,12 @@ class FinancialHelp extends Model
 {
     protected $guarded=[];
 
+
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+
+
     public static function new(Request $request){
         return FinancialHelp::create($request->all());
     }

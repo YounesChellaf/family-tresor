@@ -18,8 +18,8 @@
                             <tbody>
                             @foreach(\App\WeddingHelp::all() as $wedding)
                             <tr>
-                                <td>{{$wedding->name}}</td>
-                                <td>{{$wedding->phone_number}}</td>
+                                <td>{{$wedding->user->name}}</td>
+                                <td>{{$wedding->user->phone_number}}</td>
                                 <td>{{$wedding->wedding_date}}</td>
                                 <td>{{$wedding->iban}}</td>
                                 <td>{{$wedding->bank_name}}</td>

@@ -36,6 +36,8 @@ Route::group(['middleware' => 'auth'], function (){
     Route::resource('/suggestions','SuggestionController');
     Route::resource('/generals','GeneralController');
     Route::resource('/users','UserController');
+    Route::post('/user/bann/{id}','UserController@bann')->name('userBann');
+    Route::post('/user/confirm/{id}','UserController@confirm')->name('userConfirm');
     Route::get('/admin', function () {
         return view('dashboard.layouts.landing');
     })->name('dashboard.landing');

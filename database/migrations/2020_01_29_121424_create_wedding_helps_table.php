@@ -15,9 +15,8 @@ class CreateWeddingHelpsTable extends Migration
     {
         Schema::create('wedding_helps', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('phone_number');
+            $table->integer('user_id');
             $table->date('wedding_date');
-            $table->string('name');
             $table->string('iban');
             $table->string('bank_name');
             $table->timestamps();

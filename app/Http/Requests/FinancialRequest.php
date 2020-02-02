@@ -24,9 +24,8 @@ class FinancialRequest extends FormRequest
     public function rules()
     {
         return [
-            'phone_number' =>'required',
+
             'position' =>'required',
-            'name' =>'required',
             'type' =>'required',
             'details' =>'required',
         ];
@@ -34,9 +33,8 @@ class FinancialRequest extends FormRequest
     public function messages()
     {
         return [
-            'phone_number.required' => 'الجـــــوال اجبـاري',
+
             'position.required' => ' الصــــفة اجبـارية',
-            'name.required' => 'الاسم الرباعي اجبـاري',
             'type.required' => 'نوع الكربــة اجبـاري',
             'details.required' => 'تفاصيل الكربــة اجبـارية',
         ];

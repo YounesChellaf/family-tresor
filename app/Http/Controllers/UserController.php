@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -80,5 +81,18 @@ class UserController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function bann($id){
+        $user = User::find($id);
+        $user->confirmed = false;
+        $user->save();
+        return redirect()->back();
+    }
+    public function confirm($id){
+        $user = User::find($id);
+        $user->confirmed = true;
+        $user->save();
+        return redirect()->back();
     }
 }

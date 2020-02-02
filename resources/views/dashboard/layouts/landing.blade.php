@@ -88,7 +88,7 @@
                             <td><span class="text-muted"><i class="fa fa-clock-o"></i>{{$user->phone_number}}</span></td>
                             <td>{{$user->role}}</td>
                             <td class="text-center">
-                                <div class="label label-table label-warning">Unpaid</div>
+                                {{$user->status()}}
                             </td>
                         </tr>
                         @endforeach

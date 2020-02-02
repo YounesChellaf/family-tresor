@@ -16,8 +16,7 @@ class CreateFinancialHelpsTable extends Migration
         Schema::create('financial_helps', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('position');
-            $table->string('name');
-            $table->string('phone_number');
+            $table->integer('user_id');
             $table->string('type');
             $table->text('details');
             $table->timestamps();

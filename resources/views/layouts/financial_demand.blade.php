@@ -27,16 +27,6 @@
                             <label for="">صفتـــك</label><span style="color: red"> *</span>
                             <input type="text" class="form-control" style="border-radius: 0%"  name="position">
                         </div>
-                        <div class="form-group col-lg-6" dir="rtl">
-                            <label for="">الإسم الرباعي</label><span style="color: red"> *</span>
-                            <input type="text" class="form-control" style="border-radius: 0%"  name="name" >
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="form-group col-lg-6" dir="rtl">
-                            <label for="">رقـــم الجـــوال </label><span style="color: red"> *</span>
-                            <input type="text" class="form-control" style="border-radius: 0%"  name="phone_number" >
-                        </div>
                         <div class="form-group col-lg-6" >
                             <label for="">نوع الكربــــة</label><span style="color: red"> *</span>
                             <select name="type" id="" class="form-control" style="border-radius: 0%" >
@@ -50,6 +40,7 @@
                             {{--<input type="text" class="form-control" >--}}
                         </div>
                     </div>
+                    <input type="hidden"  name="user_id" value="{{auth()->user()->id}}">
                     <div class="row">
                         <div class="form-group col-lg-12" dir="rtl">
                             <label for="">إشرح كربتك بالتفصيل</label><span style="color: red"> *</span>

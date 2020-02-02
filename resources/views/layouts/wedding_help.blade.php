@@ -22,26 +22,18 @@
             <div  dir="rtl">
                 <form method="post" action="{{route('weddings.store')}}" class="form-group" >
                     @csrf
+
                     <div class="row">
-                        <div class="form-group col-lg-4" >
-                            <label for="">رقم الجوال</label><span style="color: red"> *</span>
-                            <input type="text" class="form-control" style="border-radius: 0%"  name="phone_number">
-                        </div>
+                        <input type="hidden"  name="user_id" value="{{auth()->user()->id}}">
                         <div class="form-group col-lg-4" dir="rtl">
                             <label for="">تاريخ الزواج</label><span style="color: red"> *</span>
                             <input type="date" class="form-control" style="border-radius: 0%"  name="wedding_date" >
                         </div>
                         <div class="form-group col-lg-4" dir="rtl">
-                            <label for="">الإسم الرباعي</label><span style="color: red"> *</span>
-                            <input type="text" class="form-control" style="border-radius: 0%"  name="name" >
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="form-group col-lg-6" dir="rtl">
                             <label for="">رقم الحساب البنكي - آي بان</label><span style="color: red"> *</span>
                             <input type="text" class="form-control" style="border-radius: 0%"  name="iban" >
                         </div>
-                        <div class="form-group col-lg-6" >
+                        <div class="form-group col-lg-4" >
                             <label for="">اسم البنك</label><span style="color: red"> *</span>
                             <select name="bank_name" id="" class="form-control" style="border-radius: 0%" >
                                 <option value="البنك الاهـلي التجـاري السعـودي">البنك الاهـلي التجـاري السعـودي</option>

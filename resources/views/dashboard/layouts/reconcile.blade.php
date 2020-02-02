@@ -17,7 +17,7 @@
                             <tbody>
                             @foreach(\App\Reconcile::all() as $reconcile)
                                 <tr>
-                                    <td>{{$reconcile->name}}</td>
+                                    <td>{{$reconcile->user->name}}</td>
                                     <td>{{$reconcile->parties}}</td>
                                     <td>{{$reconcile->other}}</td>
                                     <td><button class="btn btn-rounded btn-outline-success" data-toggle="modal" data-target="#modal-details-{{$reconcile->id}}">تفاصيـــل</button></td>

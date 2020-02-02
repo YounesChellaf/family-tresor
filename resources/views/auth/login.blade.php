@@ -3,9 +3,16 @@
 <div class="container">
     <div class="row justify-content-center" style="margin-top: 10%;text-align: right" dir="rtl">
         <div class="col-md-8">
+
             <div class="card">
                 <div class="card-header">الدخـــــول</div>
-
+                <div class="container col-md-10 mt-4 mb-4 align-items-center">
+                    @isset($message)
+                        <span class="alert-danger alert" dir="rtl">
+                                {{$message}}
+                        </span>
+                    @endif
+                </div>
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf

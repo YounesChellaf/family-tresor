@@ -25,11 +25,11 @@
                 <form method="post" action="{{route('reconciles.store')}}" class="form-group" >
                     @csrf
                     <div class="row">
-                        <div class="form-group col-lg-4" >
-                            <label for="">اسمــــك</label><span style="color: red"> *</span>
-                            <input type="text" class="form-control" style="border-radius: 0%"  name="name">
-                        </div>
-                        <div class="form-group col-lg-4" >
+
+
+                            <input type="hidden"  name="user_id" value="{{auth()->user()->id}}">
+
+                        <div class="form-group col-lg-6" >
                             <label for="">أطراف الخلاف</label><span style="color: red"> *</span>
                             <select name="parties" id="" class="form-control" style="border-radius: 0%" >
                                 <option value="اخـــــوة">اخـــــوة</option>
@@ -41,7 +41,7 @@
                             </select>
                             {{--<input type="text" class="form-control" >--}}
                         </div>
-                        <div class="form-group col-lg-4" dir="rtl">
+                        <div class="form-group col-lg-6" dir="rtl">
                             <label for="">اخـــــرى</label>
                             <input type="text" class="form-control" style="border-radius: 0%"  name="other" >
                         </div>
