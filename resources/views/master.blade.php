@@ -104,11 +104,10 @@
                     <nav class="site-navigation position-relative text-right" role="navigation" dir="rtl" >
 
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                            <li><a href="{{route('landing')}}" class="nav-link">الرئيسية</a></li>
-                            <li><a href="{{route('family_ratios')}}" class="nav-link">نـــســب الأســــــرة</a></li>
-                            <li><a href="{{route('about_tresor')}}" class="nav-link">عن الصندوق</a></li>
+                            <a href="{{route('landing')}}" class="nav-link">الرئيسية</a>
+                            <a href="{{route('family_ratios')}}" class="nav-link">نـــســب الأســــــرة</a>
+                            <a href="{{route('about_tresor')}}" class="nav-link">عن الصندوق</a>
                             {{--<li><a href="{{route('photos')}}" class="nav-link">الصـور</a></li>--}}
-                            <li>
                                 <div class="dropdown">
                                     <button class="dropbtn">الخدمــــات</button>
                                     <div class="dropdown-content">
@@ -118,15 +117,14 @@
                                         <a href="{{route('suggestion')}}">الاقـتراحات</a>
                                     </div>
                                 </div>
-                            </li>
                             @if(auth()->guest())
-                                <li><a href="{{route('login')}}" class="nav-link">الدخـــــول</a></li>
-                                <li><a href="{{route('register')}}" class="nav-link">التسجيــــل</a></li>
+                                <a href="{{route('login')}}" class="nav-link">الدخـــــول</a>
+                                <a href="{{route('register')}}" class="nav-link">التسجيــــل</a>
                             @else
                                 @if(auth()->user()->role == 'admin')
-                                    <li><a href="{{route('dashboard.landing')}}" class="nav-link">لوحــــة التحــكم</a></li>
+                                    <a href="{{route('dashboard.landing')}}" class="nav-link">لوحــــة التحــكم</a>
                                 @else
-                                    <li><a href="{{route('logout')}}" class="nav-link">الخـــروج</a></li>
+                                    <a href="{{route('logout')}}" class="nav-link">الخـــروج</a>
                                 @endif
                             @endif
                         </ul>

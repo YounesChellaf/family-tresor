@@ -192,7 +192,7 @@
             <div class="row mb-5">
                 <div class="col-lg-6">
                     {{--<img src="{{asset('assets/images/about_1.jpg')}}" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">--}}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466380.9694771072!2d37.84700112181078!3d24.04512007679874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15b9060be2a84147%3A0xc294f09f5a959010!2sYanbu%20Saudi%20Arabia!5e0!3m2!1sen!2sdz!4v1580319199017!5m2!1sen!2sdz" width="550" height="400" frameborder="0" style="border:2px solid #c2c2c2;" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466380.9694771072!2d37.84700112181078!3d24.04512007679874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15b9060be2a84147%3A0xc294f09f5a959010!2sYanbu%20Saudi%20Arabia!5e0!3m2!1sen!2sdz!4v1580319199017!5m2!1sen!2sdz" width="500" height="400" frameborder="0" style="border:2px solid #c2c2c2;" allowfullscreen=""></iframe>
                 </div>
                 <div class="col-lg-6 ml-auto pl-lg-5">
                     <h2 class="text-black mb-4">عن يـنبـع</h2>
