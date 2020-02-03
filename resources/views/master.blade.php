@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-    <header class="site-navbar py-md-4 js-sticky-header site-navbar-target" role="banner">
+    <header class="site-navbar py-md-4 js-sticky-header site-navbar-target mb-5" role="banner" >
 
         <div class="container">
             <div class="row align-items-center">
@@ -106,10 +106,9 @@
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                             <a href="{{route('landing')}}" class="nav-link">الرئيسية</a>
                             <a href="{{route('family_ratios')}}" class="nav-link">نـــســب الأســــــرة</a>
-                            <a href="{{route('about_tresor')}}" class="nav-link">عن الصندوق</a>
                             {{--<li><a href="{{route('photos')}}" class="nav-link">الصـور</a></li>--}}
                                 <div class="dropdown">
-                                    <button class="dropbtn">الخدمــــات</button>
+                                    <button class="dropbtn">الخدمــــات الالكترونيـة</button>
                                     <div class="dropdown-content">
                                         <a href="{{route('financial_help')}}">طـلب معونة مالية</a>
                                         <a href="{{route('weeding_help')}}">طـلب إعانة زواج</a>
@@ -117,9 +116,10 @@
                                         <a href="{{route('suggestion')}}">الاقـتراحات</a>
                                     </div>
                                 </div>
+                            <a href="{{route('about_tresor')}}" class="nav-link">عن الصندوق</a>
                             @if(auth()->guest())
                                 <a href="{{route('login')}}" class="nav-link">الدخـــــول</a>
-                                <a href="{{route('register')}}" class="nav-link">التسجيــــل</a>
+                                <a href="{{route('register')}}" class="nav-link">طلـــب العضويـة</a>
                             @else
                                 @if(auth()->user()->role == 'admin')
                                     <a href="{{route('dashboard.landing')}}" class="nav-link">لوحــــة التحــكم</a>
@@ -181,6 +181,6 @@
 
 
 <script src="{{asset('assets/js/main.js')}}"></script>
-
+@yield('js')
 </body>
 </html>

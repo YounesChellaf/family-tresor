@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="" />
+    <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,31 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SuggestionRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/SuggestionRequest.php">
+      <file leaf-file-name="LoginController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeddingRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/WeddingRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="financial_demand.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/financial_demand.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
-              <folding>
-                <element signature="e#2463#2481#0#HTML" expanded="true" />
-                <element signature="e#2552#2577#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -46,8 +35,8 @@
       <file leaf-file-name="UserSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="21" column="58" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="58" />
+            <state relative-caret-position="455">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="58" />
               <folding>
                 <element signature="e#7#20#0#PHP" expanded="true" />
               </folding>
@@ -55,41 +44,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/home.blade.php">
+      <file leaf-file-name="AuthenticatesUsers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4365">
-              <caret line="194" column="318" selection-start-line="194" selection-start-column="318" selection-end-line="194" selection-end-column="318" />
+            <state relative-caret-position="366">
+              <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
               <folding>
-                <element signature="e#11075#11108#0#HTML" expanded="true" />
+                <element signature="e#46#74#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="financial.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/financial.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reconcile.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/reconcile.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-222">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wedding.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/wedding.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -97,17 +59,62 @@
       <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+            <state relative-caret-position="267">
+              <caret line="183" column="12" selection-start-line="183" selection-start-column="12" selection-end-line="183" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <file leaf-file-name="2014_10_12_000000_create_users_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="300" column="61" lean-forward="true" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
+            <state relative-caret-position="221">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistersUsers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -138,15 +145,11 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/suggestion.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/phone_number.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/family_ratios.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/bootstrap/style.min.css" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WeddingHelpController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReconcileController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SuggestionController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FinancialHelpController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/suggestion.blade.php" />
@@ -160,19 +163,14 @@
         <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/landing.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
-        <option value="$PROJECT_DIR$/database/seeds/UserSeeder.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_01_29_121424_create_wedding_helps_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_01_29_154042_create_financial_helps_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_01_29_155036_create_reconciles_table.php" />
         <option value="$PROJECT_DIR$/app/WeddingHelp.php" />
         <option value="$PROJECT_DIR$/app/FinancialHelp.php" />
         <option value="$PROJECT_DIR$/app/Reconcile.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/reconcile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/wedding_help.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/FinancialRequest.php" />
@@ -183,8 +181,17 @@
         <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/reconcile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/wedding.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UserSeeder.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
+        <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php" />
       </list>
     </option>
   </component>
@@ -332,13 +339,13 @@
             <path>
               <item name="family_tresor" type="b2602c69:ProjectViewProjectNode" />
               <item name="family_tresor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="family_tresor" type="b2602c69:ProjectViewProjectNode" />
               <item name="family_tresor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="family_tresor" type="b2602c69:ProjectViewProjectNode" />
@@ -380,7 +387,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/layouts/home.blade.php&#10;User&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;USer&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/User.php&#10;Reconci&#9;null&#9;null&#10;Finan&#9;null&#9;null&#10;Wedd&#9;null&#9;null&#10;maste&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Login&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;Logi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;user&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2014_10_12_000000_create_users_table.php&#10;web&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;mas&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;UserSe&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;.env&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;wen&#9;null&#9;null&#10;Genera&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/GeneralController.php&#10;general&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;Gene&#9;null&#9;null&#10;Seed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/DatabaseSeeder.php&#10;we&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;gener&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;سعللث&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;recon&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_155036_create_reconciles_table.php&#10;Regis&#9;null&#9;null&#10;su&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;finan&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_154042_create_financial_helps_table.php&#10;Sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/SuggestionController.php&#10;REconcile&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;wedd&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/WeddingHelpController.php&#10;Suggestion&#9;null&#9;null&#10;sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;Reconc&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;Recon&#9;null&#9;null&#10;WEdd&#9;null&#9;null&#10;wed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_121424_create_wedding_helps_table.php&#10;style&#9;FILE&#9;file:///Users/issam/dev/family_tresor/public/assets/css/style.css&#10;صثز&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;.en&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;PHone&#9;null&#9;null&#10;Phone&#9;null&#9;null&#10;phone&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_26_233355_create_phone_numbers_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="Us&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;Lo&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regis&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;User&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/User.php&#10;user&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2014_10_12_000000_create_users_table.php&#10;UserS&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;mas&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;ma&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;home&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/layouts/home.blade.php&#10;USer&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/User.php&#10;Reconci&#9;null&#9;null&#10;Finan&#9;null&#9;null&#10;Wedd&#9;null&#9;null&#10;maste&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Login&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;Logi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;web&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;UserSe&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;.env&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;wen&#9;null&#9;null&#10;Genera&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/GeneralController.php&#10;general&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;Gene&#9;null&#9;null&#10;Seed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/DatabaseSeeder.php&#10;we&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;gener&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;سعللث&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;recon&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_155036_create_reconciles_table.php&#10;su&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;finan&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_154042_create_financial_helps_table.php&#10;Sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/SuggestionController.php&#10;REconcile&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;wedd&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/WeddingHelpController.php&#10;Suggestion&#9;null&#9;null&#10;sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;Reconc&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;Recon&#9;null&#9;null&#10;WEdd&#9;null&#9;null&#10;wed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_121424_create_wedding_helps_table.php&#10;style&#9;FILE&#9;file:///Users/issam/dev/family_tresor/public/assets/css/style.css&#10;صثز&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;.en&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;PHone&#9;null&#9;null&#10;Phone&#9;null&#9;null&#10;phone&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_26_233355_create_phone_numbers_table.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -421,12 +428,12 @@
       <updated>1580054255528</updated>
       <workItem from="1580054256770" duration="29655000" />
       <workItem from="1580575547739" duration="6326000" />
-      <workItem from="1580599843057" duration="6286000" />
+      <workItem from="1580599843057" duration="12975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42267000" />
+    <option name="totallyTimeSpent" value="48956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -438,8 +445,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29295427" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29295427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -461,20 +468,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/General.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/GeneralSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -572,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -588,13 +574,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,37 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="51" column="65" selection-start-line="49" selection-start-column="16" selection-end-line="51" selection-end-column="65" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -704,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_29_155036_create_reconciles_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -720,13 +661,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/suggestion.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/reconcile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="96" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="96" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/wedding_help.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,17 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/financial_demand.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="42" column="88" selection-start-line="42" selection-start-column="88" selection-end-line="42" selection-end-column="88" />
-          <folding>
-            <element signature="e#2463#2481#0#HTML" expanded="true" />
-            <element signature="e#2552#2577#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/financial.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -779,27 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/reconcile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/wedding.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="58" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="58" />
-          <folding>
-            <element signature="e#7#20#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,17 +719,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        <state relative-caret-position="2375">
+          <caret line="300" column="61" lean-forward="true" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="300" column="61" lean-forward="true" selection-start-line="300" selection-start-column="61" selection-end-line="300" selection-end-column="61" />
+        <state relative-caret-position="322">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding>
+            <element signature="e#84#127#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/reconcile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="42" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/reconcile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/financial_demand.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="183" column="12" selection-start-line="183" selection-start-column="12" selection-end-line="183" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="42" selection-end-line="79" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UserSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#7#20#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -9,9 +9,12 @@
                             <thead>
                             <tr>
                                 <th>الإسم الرباعي</th>
+                                <th>الجنـس</th>
                                 <th>رقـم الهاتف</th>
-                                <th>رقم بطاقـة التعريف</th>
-                                <th>الايميـــل</th>
+                                <th>السجل المدني</th>
+                                <th>مكان الاقامة</th>
+                                <th>الوظيفة</th>
+                                {{--<th>الايميـــل</th>--}}
                                 <th>الحــالة</th>
                                 <th colspan="2">الاجراءات</th>
                             </tr>
@@ -20,9 +23,12 @@
                             @foreach(\App\User::all() as $user)
                                 <tr>
                                     <td>{{$user->name}}</td>
+                                    <td>{{$user->sexe}}</td>
                                     <td>{{$user->phone_number}}</td>
                                     <td>{{$user->card_number}}</td>
-                                    <td>{{$user->email}}</td>
+                                    <td>{{$user->location}}</td>
+                                    <td>{{$user->job}}</td>
+                                    {{--<td>{{$user->email}}</td>--}}
                                     <td>{{$user->status()}}</td>
                                     @if( ! $user->confirmed)
                                         <td><button class="btn btn-rounded btn-outline-success" data-toggle="modal" data-target="#modal-confirm-{{$user->id}}">تأكيد المستخدم</button></td>

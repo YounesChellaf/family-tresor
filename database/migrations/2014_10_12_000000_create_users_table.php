@@ -18,6 +18,9 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('phone_number');
             $table->string('card_number');
+            $table->string('location');
+            $table->string('job');
+            $table->enum('sexe',['ذكـــر','انثــى']);
             $table->string('role')->default('user');
             $table->string('confirmed')->default(false);
             $table->string('email')->unique();

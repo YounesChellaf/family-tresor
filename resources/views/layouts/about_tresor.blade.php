@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-    <div class="site-section bg-light"  style="margin-top: 2% ; text-align: right">
+    <div class="site-section bg-light mt-5"  style="margin-top: 10% ; text-align: right">
         <div class="container">
             <div class="row mb-5 mt-5">
                 <div class="col-12 text-center">
