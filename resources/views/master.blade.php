@@ -100,7 +100,7 @@
                     <img src="{{asset('assets/images/hejari-logo.png')}}" alt="" width="110" height="110" style="padding: 12%">
                 </div>
 
-                <div class="col-12 col-md-10 main-menu">
+                <div class="col-12 col-md-12 main-menu">
                     <nav class="site-navigation position-relative text-right" role="navigation" dir="rtl" >
 
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
@@ -127,6 +127,7 @@
                                     <a href="{{route('logout')}}" class="nav-link">الخـــروج</a>
                                 @endif
                             @endif
+                            <a href="{{route('conditions')}}" class="nav-link">شروط استخدام الموقع</a>
                         </ul>
                     </nav>
                 </div>

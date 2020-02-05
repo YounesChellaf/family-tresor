@@ -26,6 +26,9 @@ Route::get('/جوال-تواصل', function () {
 Route::get('/صـــــور', function () {
     return view('layouts.photos');
 })->name('photos');
+Route::get('/شروط-الاستخدام', function () {
+    return view('layouts.conditions');
+})->name('conditions');
 
 
 Route::group(['middleware' => 'auth'], function (){
