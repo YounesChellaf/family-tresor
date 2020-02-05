@@ -5,7 +5,7 @@
             <div class="row mb-5 mt-5">
                 <div class="col-12 text-center">
                     {{--<img src="{{asset('assets/images/tresor_logo.png')}}" alt="">--}}
-                    <h2 class="section-title mb-3">صنـــدوق اسرة الهجــاري التعــاوني</h2>
+                    <h2 class="section-title mb-3">صنـــدوق عائلة الهجــاري التعــاوني</h2>
                 </div>
             </div>
             <div class="row mb-5 mt-5"  dir="rtl" style="text-align: right">
