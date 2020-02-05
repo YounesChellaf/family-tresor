@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> الموقع الرسمي لأسرة الهجــاري</title>
+    <title> الموقع الرسمي لعائلة الهجــاري</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -105,7 +105,7 @@
 
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                             <a href="{{route('landing')}}" class="nav-link">الرئيسية</a>
-                            <a href="{{route('family_ratios')}}" class="nav-link">نـــســب الأســــــرة</a>
+                            <a href="{{route('family_ratios')}}" class="nav-link">نـــســب العائلة</a>
                             {{--<li><a href="{{route('photos')}}" class="nav-link">الصـور</a></li>--}}
                                 <div class="dropdown">
                                     <button class="dropbtn">الخدمــــات الالكترونيـة</button>
@@ -153,7 +153,7 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="mb-0">
-                    الموقع الرسمي بإشراف صندوق أسرة الهجــاري
+                    الموقع الرسمي بإشراف صندوق عائلة الهجــاري
                 </p>
             </div>
         </div>
