@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/conditions.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conditions.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conditions.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/conditions.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="384">
               <caret line="52" column="319" selection-start-line="52" selection-start-column="319" selection-end-line="52" selection-end-column="319" />
             </state>
           </provider>
@@ -89,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_tresor.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="about_tresor.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="7" column="60" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="231">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -197,10 +194,10 @@
         <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/layouts/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/conditions.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php" />
       </list>
     </option>
   </component>
@@ -423,12 +420,12 @@
       <workItem from="1580054256770" duration="29655000" />
       <workItem from="1580575547739" duration="6326000" />
       <workItem from="1580599843057" duration="13322000" />
-      <workItem from="1580912911764" duration="1146000" />
+      <workItem from="1580912911764" duration="1329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50449000" />
+    <option name="totallyTimeSpent" value="50632000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -785,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="7" column="60" selection-end-line="41" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/dashboard/layouts/wedding.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -835,8 +825,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/conditions.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
+        <state relative-caret-position="384">
           <caret line="52" column="319" selection-start-line="52" selection-start-column="319" selection-end-line="52" selection-end-column="319" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/about_tresor.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
