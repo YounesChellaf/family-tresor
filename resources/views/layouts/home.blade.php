@@ -7,7 +7,7 @@
 
                 <div class="col-md-12" style="position: relative;" data-aos="fade-up">
 
-                    <img src="{{asset('assets/images/family.jpg')}}" alt="Image" class="img-fluid img-absolute" width="500">
+                    <img src="{{asset('assets/images/family.jpeg')}}" alt="Image" class="img-fluid img-absolute" width="500">
 
                     <div class="row mb-4" >
                         <div class="col-lg-6 mr-auto" dir="rtl">
@@ -182,32 +182,32 @@
     {{--</div>--}}
 
 
-    <div class="site-section bg-light" id="about-section" style="text-align: right" >
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 text-center">
+    {{--<div class="site-section bg-light" id="about-section" style="text-align: right" >--}}
+        {{--<div class="container">--}}
+            {{--<div class="row mb-5">--}}
+                {{--<div class="col-12 text-center">--}}
                     {{--<h2 class="section-title mb-3">عـــــن مديــنتنا</h2>--}}
-                </div>
-            </div>
-            <div class="row mb-5">
-                <div class="col-lg-6">
+                {{--</div>--}}
+            {{--</div>--}}
+            {{--<div class="row mb-5">--}}
+                {{--<div class="col-lg-6">--}}
                     {{--<img src="{{asset('assets/images/about_1.jpg')}}" alt="Image" class="img-fluid mb-5 mb-lg-0 rounded shadow">--}}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466380.9694771072!2d37.84700112181078!3d24.04512007679874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15b9060be2a84147%3A0xc294f09f5a959010!2sYanbu%20Saudi%20Arabia!5e0!3m2!1sen!2sdz!4v1580319199017!5m2!1sen!2sdz" width="500" height="400" frameborder="0" style="border:2px solid #c2c2c2;" allowfullscreen=""></iframe>
-                </div>
-                <div class="col-lg-6 ml-auto pl-lg-5">
-                    <h2 class="text-black mb-4">عن يـنبـع</h2>
-                    <p class="mb-4">
-                        نبع هي محافظة من محافظات منطقة المدينة المنورة في المملكة العربية السعودية وتقع على ساحل البحر الأحمر في إقليم تهامة تبعد حوالي 200 كم غرب المدينة المنورة و 125 كم جنوب مدينة أملج و 300 كم شمال مدينة جدة. ويقدّر عدد سكانها بـحوالي 500 ألف نسمة. وتعتبر ثاني أكبر مدينة على البحر الأحمر بعد مدينة جدة وتقسم المدينة إلى 3 مدن: ينبع البحر ، وينبع النخل ، وينبع الصناعية. وتلقب بلؤلؤة البحر الأحمر.
-                    </p>
-                    <p class="mb-4">
-                        ينبع هي إحدى مدن المملكة العربية السعودية، وتقع في غرب الجزيرة العربية على الضفة الشرقية للبحر الأحمر التي يبلغ طولها ضمن حدود المملكة العربية السعودية 1800 كم
-                    </p>
-                    <p><a href="https://ar.wikipedia.org/wiki/%D9%8A%D9%86%D8%A8%D8%B9" target="_blank" class="btn btn-outline-dark" style="border-radius: 0%">استكشــف اكثـر</a></p>
-                </div>
-            </div>
+                    {{--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d466380.9694771072!2d37.84700112181078!3d24.04512007679874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15b9060be2a84147%3A0xc294f09f5a959010!2sYanbu%20Saudi%20Arabia!5e0!3m2!1sen!2sdz!4v1580319199017!5m2!1sen!2sdz" width="500" height="400" frameborder="0" style="border:2px solid #c2c2c2;" allowfullscreen=""></iframe>--}}
+                {{--</div>--}}
+                {{--<div class="col-lg-6 ml-auto pl-lg-5">--}}
+                    {{--<h2 class="text-black mb-4">عن يـنبـع</h2>--}}
+                    {{--<p class="mb-4">--}}
+                        {{--نبع هي محافظة من محافظات منطقة المدينة المنورة في المملكة العربية السعودية وتقع على ساحل البحر الأحمر في إقليم تهامة تبعد حوالي 200 كم غرب المدينة المنورة و 125 كم جنوب مدينة أملج و 300 كم شمال مدينة جدة. ويقدّر عدد سكانها بـحوالي 500 ألف نسمة. وتعتبر ثاني أكبر مدينة على البحر الأحمر بعد مدينة جدة وتقسم المدينة إلى 3 مدن: ينبع البحر ، وينبع النخل ، وينبع الصناعية. وتلقب بلؤلؤة البحر الأحمر.--}}
+                    {{--</p>--}}
+                    {{--<p class="mb-4">--}}
+                        {{--ينبع هي إحدى مدن المملكة العربية السعودية، وتقع في غرب الجزيرة العربية على الضفة الشرقية للبحر الأحمر التي يبلغ طولها ضمن حدود المملكة العربية السعودية 1800 كم--}}
+                    {{--</p>--}}
+                    {{--<p><a href="https://ar.wikipedia.org/wiki/%D9%8A%D9%86%D8%A8%D8%B9" target="_blank" class="btn btn-outline-dark" style="border-radius: 0%">استكشــف اكثـر</a></p>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-        </div>
-    </div>
+        {{--</div>--}}
+    {{--</div>--}}
 
 
     {{--<div class="site-section testimonial-wrap" id="testimonials-section">--}}

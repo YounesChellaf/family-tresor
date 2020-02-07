@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('card_number');
             $table->string('location');
             $table->string('job');
+            $table->string('civil_state');
             $table->enum('sexe',['ذكـــر','انثــى']);
             $table->string('role')->default('user');
             $table->string('confirmed')->default(false);

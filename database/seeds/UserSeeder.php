@@ -20,6 +20,7 @@ class UserSeeder extends Seeder
             'location' => 'ينبــع',
             'job' => 'مدير الموقــع',
             'sexe' => 'ذكـــر',
+            'civil_state' => 'متزوج',
             'confirmed' => true,
             'email' => 'abdelah-elhajari@gmail.com',
             'password' => Hash::make('el-hajari-admin-2020'),
