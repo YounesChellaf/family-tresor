@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="c39f8bf5-58ea-447b-8a7d-e8631c7afa09" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="156" selection-end-column="53" />
+            <state relative-caret-position="343">
+              <caret line="155" column="32" lean-forward="true" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -100,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="-283">
               <caret line="48" column="57" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="57" />
             </state>
           </provider>
@@ -369,7 +367,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2014_10_12_000000_create_users_table.php&#10;mas&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/dashboard/master.blade.php&#10;USer&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;home&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/layouts/home.blade.php&#10;USerS&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;REgi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;regi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/auth/register.blade.php&#10;master&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;web&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;وشس&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Us&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;Lo&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regis&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;User&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/User.php&#10;UserS&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;ma&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Reconci&#9;null&#9;null&#10;Finan&#9;null&#9;null&#10;Wedd&#9;null&#9;null&#10;maste&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Login&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;Logi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;UserSe&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;.env&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;wen&#9;null&#9;null&#10;Genera&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/GeneralController.php&#10;general&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;Gene&#9;null&#9;null&#10;Seed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/DatabaseSeeder.php&#10;we&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;gener&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;سعللث&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;recon&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_155036_create_reconciles_table.php&#10;su&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;finan&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_154042_create_financial_helps_table.php&#10;Sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/SuggestionController.php&#10;REconcile&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;wedd&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/WeddingHelpController.php&#10;Suggestion&#9;null&#9;null&#10;sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;Reconc&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;Recon&#9;null&#9;null&#10;WEdd&#9;null&#9;null&#10;wed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_121424_create_wedding_helps_table.php&#10;style&#9;FILE&#9;file:///Users/issam/dev/family_tresor/public/assets/css/style.css&#10;صثز&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;.en&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;PHone&#9;null&#9;null&#10;Phone&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="قثلهس&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/auth/register.blade.php&#10;user&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2014_10_12_000000_create_users_table.php&#10;mas&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/dashboard/master.blade.php&#10;USer&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;home&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/layouts/home.blade.php&#10;USerS&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;REgi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;regi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/auth/register.blade.php&#10;master&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;web&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;وشس&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Us&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;Lo&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regis&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;User&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/User.php&#10;UserS&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;ma&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Reconci&#9;null&#9;null&#10;Finan&#9;null&#9;null&#10;Wedd&#9;null&#9;null&#10;maste&#9;FILE&#9;file:///Users/issam/dev/family_tresor/resources/views/master.blade.php&#10;Login&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;Regi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/RegisterController.php&#10;Logi&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/Auth/LoginController.php&#10;UserSe&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/UserSeeder.php&#10;.env&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;wen&#9;null&#9;null&#10;Genera&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/GeneralController.php&#10;general&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;Gene&#9;null&#9;null&#10;Seed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/seeds/DatabaseSeeder.php&#10;we&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;gener&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_02_01_171539_create_generals_table.php&#10;سعللث&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;recon&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_155036_create_reconciles_table.php&#10;su&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;finan&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_154042_create_financial_helps_table.php&#10;Sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/SuggestionController.php&#10;REconcile&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;wedd&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/WeddingHelpController.php&#10;Suggestion&#9;null&#9;null&#10;sugges&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_160004_create_suggestions_table.php&#10;Reconc&#9;FILE&#9;file:///Users/issam/dev/family_tresor/app/Http/Controllers/ReconcileController.php&#10;Recon&#9;null&#9;null&#10;WEdd&#9;null&#9;null&#10;wed&#9;FILE&#9;file:///Users/issam/dev/family_tresor/database/migrations/2020_01_29_121424_create_wedding_helps_table.php&#10;style&#9;FILE&#9;file:///Users/issam/dev/family_tresor/public/assets/css/style.css&#10;صثز&#9;FILE&#9;file:///Users/issam/dev/family_tresor/routes/web.php&#10;.en&#9;FILE&#9;file:///Users/issam/dev/family_tresor/.env&#10;PHone&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -411,12 +409,12 @@
       <workItem from="1580054256770" duration="29655000" />
       <workItem from="1580575547739" duration="6326000" />
       <workItem from="1580599843057" duration="13322000" />
-      <workItem from="1580912911764" duration="6707000" />
+      <workItem from="1580912911764" duration="6857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56010000" />
+    <option name="totallyTimeSpent" value="56160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -759,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -820,8 +811,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="156" selection-end-column="53" />
+        <state relative-caret-position="343">
+          <caret line="155" column="32" lean-forward="true" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="57" />
         </state>
       </provider>
     </entry>
