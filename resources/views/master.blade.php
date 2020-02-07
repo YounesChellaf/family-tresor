@@ -87,7 +87,7 @@
         <div class="row">
             <div class="col-12 text-center mt-4">
                 {{--<h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">Landerz<span class="text-primary">.</span> </a></h1>--}}
-                <img src="{{asset('assets/images/hejari-logo.png')}}" alt="" width="200" height="150">
+                <img src="{{asset('assets/images/logo.jpg')}}" alt="" width="200" height="150">
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@
             <div class="row align-items-center">
 
                 <div class="col-6 col-md-6 col-xl-2  d-block d-lg-none">
-                    <img src="{{asset('assets/images/hejari-logo.png')}}" alt="" width="110" height="110" style="padding: 12%">
+                    <img src="{{asset('assets/images/logo.jpg')}}" alt="" width="110" height="110" style="padding: 12%">
                 </div>
 
                 <div class="col-12 col-md-12 main-menu">

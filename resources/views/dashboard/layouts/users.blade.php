@@ -10,6 +10,7 @@
                             <tr>
                                 <th>الإسم الرباعي</th>
                                 <th>الجنـس</th>
+                                <th>الحالة</th>
                                 <th>رقـم الهاتف</th>
                                 <th>السجل المدني</th>
                                 <th>مكان الاقامة</th>
@@ -24,6 +25,7 @@
                                 <tr>
                                     <td>{{$user->name}}</td>
                                     <td>{{$user->sexe}}</td>
+                                    <td>{{$user->civil_state}}</td>
                                     <td>{{$user->phone_number}}</td>
                                     <td>{{$user->card_number}}</td>
                                     <td>{{$user->location}}</td>

@@ -57,7 +57,7 @@
                         <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                         <!-- Dark Logo icon -->
                         <!-- Light Logo icon -->
-                        <img src="{{asset('assets/images/hejari-logo.png')}}" alt="homepage" width="220" height="70" style="margin-right: -5%;margin-bottom: -3%"/>
+                        <img src="{{asset('assets/images/logo.jpg')}}" alt="homepage" width="220" height="70" style="margin-right: -5%;margin-bottom: -3%"/>
                     </b>
             </div>
             <!-- ============================================================== -->
